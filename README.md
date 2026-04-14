@@ -2,9 +2,13 @@
 
 Command package for `x`.
 
-## Command
+## Commands
 
 `pull`
+
+`push`
+
+`new`
 
 ## Development
 
@@ -12,6 +16,7 @@ Command package for `x`.
 pnpm install
 pnpm build
 x run . pull
+x run . push
 ```
 
 ## Install Into x

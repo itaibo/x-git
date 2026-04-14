@@ -18,6 +18,10 @@
         "entry": "./dist/src/pull.js",
         "description": "Pulls changes from remote repository"
       },
+      "push": {
+        "entry": "./dist/src/push.js",
+        "description": "Pushes changes to the current branch"
+      },
       "new": {
         "entry": "./dist/src/new.js",
         "description": "Creates a new branch"

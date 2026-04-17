@@ -1,27 +1,35 @@
 # @itaibo/x-git
 
-Command package for `x`.
+Git commands to use with x [@type-x/cli](https://www.npmjs.com/package/@type-x/cli)
+
+## Install
+
+```sh
+# If you don't have x installed yet
+npm i -g @type-x/cli@latest
+
+x add @itaibo/x-git
+```
 
 ## Commands
 
-`pull`
+```sh
+# Create new feature branch
+x new
 
-`push`
+# Pull from origin
+x pull
 
-`new`
+# Push to origin
+x push
+
+```
 
 ## Development
 
-```bash
+```sh
 pnpm install
 pnpm build
 x run . pull
 x run . push
-```
-
-## Install Into x
-
-```bash
-x add @itaibo/x-git
-x pull
 ```

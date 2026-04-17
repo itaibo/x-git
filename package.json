@@ -1,7 +1,11 @@
 {
   "name": "@itaibo/x-git",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "description": "Git commands for x",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "check-types": "tsc -p tsconfig.json --noEmit"

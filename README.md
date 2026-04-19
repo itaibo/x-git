@@ -23,6 +23,8 @@ x pull
 # Push to origin
 x push
 
+# Switch to main branch
+x main
 ```
 
 ## Development

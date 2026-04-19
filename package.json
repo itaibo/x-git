@@ -1,8 +1,8 @@
 {
   "name": "@itaibo/x-git",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
-  "description": "Git commands for x",
+  "description": "Personal git commands for x",
   "publishConfig": {
     "access": "public"
   },
@@ -30,6 +30,10 @@
       "new": {
         "entry": "./dist/src/new.js",
         "description": "Creates a new branch"
+      },
+      "main": {
+        "entry": "./dist/src/main.js",
+        "description": "Switches to the main branch"
       }
     }
   },
